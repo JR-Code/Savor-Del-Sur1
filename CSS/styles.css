@@ -1,0 +1,417 @@
+
+html, body {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+    /* overflow-x: hidden; */
+    font-family: 'Tinos', serif;
+  }
+  /* This code removes Extra White Space on the side of HTML CSS Website for Mobile or Tab */
+  @media only screen and (max-width: 780px) {
+    html,body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+  }
+  a:link { text-decoration: none; }
+  a:visited { text-decoration: none; }
+  a:hover { text-decoration: none; color: #ffc56e;}
+  a:active { text-decoration: #ffa500; }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Satisfy", sans-serif;
+  }
+
+#wrapper {
+    background-color: #000000
+}
+h4{
+    color: #fff;
+}
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 9%;
+  margin: 10px auto;
+  }
+
+
+  .flexbox-container {
+    display: flex;
+    /* margin: 100px;*/
+    /*
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    flex-direction: row or column;
+    */
+  }
+  /* ProfilePic Section Start */
+  #profilePic {
+    height: auto;
+    /* background-color: violet; */
+  }
+  
+  .pictureMain {
+    flex: 3;  /*Box size */
+    padding-top: 85px;
+    /* padding-bottom: 0; */
+  }
+  .topImg {
+    height: 370px;
+    width: 100%;
+  }
+  @media (max-width: 900px) {
+    .topImg {
+      height: 235px;
+    }
+  }
+  .textAlign {
+    text-align: center;
+    color: #fff;
+  }
+  .menu-item {
+    position: relative;
+  }
+ 
+  .menu-item-1 {
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding-top: 90px;
+   /* padding: 10em 10em 50em 20em; */
+  }
+  @media (max-width: 900px) {
+    .menu-item-1 {
+      padding-top: 45px;
+    }
+  }
+  #menuButton {
+    position: absolute;
+    /*margin: 16em 15em 40em 43em; */
+    left: 46%; 
+    top: 50%;
+  }
+ 
+  /* ProfilePic Section End */
+  
+  /* Headline section Starts */
+  .flexbox-container1 {
+    display: flex;
+    justify-content: center;
+    
+    
+    /*
+    height: 700px;
+    
+    flex-direction: column; The Y axis will be the main Axis. 
+    
+    justify-content: space-around; (flex-start; center; space-between; space-around; etc)Align all items horizontally at the start of the main X axis.
+    
+    align-items: center; (flex-start; stretch; center;) Aligns all items vertically across the Y axis.
+    
+    flex-wrap: wrap; Items will show int their assigned size and Stockup the items on smaller screen.
+  
+    align-content: flex-start; (flex-end; space-between; Align items top and bottom of the main container)
+    */
+  }
+  /*
+  flex: 1 0 1px; 
+  the shorthand: 1st # = fex grow, 2nd # = flex shrink, 3rd # = flex basis.
+  */
+  
+  .flexbox-item {
+    width: 300px;
+    margin: 45px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #fff;
+    /*
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    height: 450px;
+    */
+  }
+  @media screen and (max-width: 800px) {
+    .flexbox-item {
+      margin: 35px 5px 0px 5px;
+      max-block-size: 25em;
+      /*max-block-size: 5px;*/
+    }
+  }
+
+
+  .flexbox-item-1 {
+    min-height: 400px;
+  }
+  
+  .flexbox-item-2 {
+    min-height: 300px;
+  }
+  
+  /* This overwrite the aligned content of the main container in the specify item:
+  align-self: center; (flex-end; flex-start; etc) */
+  
+  /* This changes/re-arrange the order for each items - assign to each item. Note: not recomended since this will affect the order of item for user using "screen reader".
+  order: 1; (2; 3; etc) */
+  
+
+  .flexItem1-img {
+      /* padding-bottom: 35px;*/
+      height: 150px;
+      width: 150px;
+      border-radius: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 35px;
+    
+      /*
+      max-width: 100%; 
+      max-height: 100%;
+      */
+    }
+    @media (max-width: 800px) {
+      .flexItem1-img {
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 35px;
+      }
+    }
+    .flexItem1-open-img {
+     padding-top: 10px;
+     height: 40%;
+     width: 100%;
+    }
+    @media (max-width: 800px) {
+      .flexItem1-open-img {
+        height: 35%;
+        width: 80%;
+      }
+    }
+
+    #getStartedButton {
+      margin-top: 30px;
+    }
+
+/* Headline section End */
+
+
+/* Button generator code start */
+ 
+.myButton {
+	
+	background-color:#fff;
+	border-radius:50px;
+	border:2px solid #ffb03b;
+	display:inline-block;
+	cursor:pointer;
+	color: #444444;
+	font-family:Arial;
+	font-size:14px;
+	font-weight: 500;
+  line-height: 1;
+	padding: 8px 16px 10px 16px;;
+  margin: 0 3px 10px 3px;
+  transition: all ease-in-out 0.3s;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+.myButton:hover {
+	color: #fff;
+  background: #ffb03b;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+  /* Button generator code Ends */
+  /* Headline section Ends */
+
+  /* Food-items section Starts */
+
+    #food-items {
+        height: auto;
+        
+        /* margin: 10px; to add space between the items 1 an 2 */
+        /* border: 1px solid #333; */
+        /*margin-top: 2em; */
+      }
+
+      .flexbox-container2 {
+        display: flex;
+        position: relative;
+      }
+      .topTextImg {
+        height: 400px;
+        width: 100%;
+      }
+      @media (max-width: 900px) {
+        .topTextImg {
+          height: 235px;
+          padding-top: 0px;
+        }
+      }
+      .food-item {
+        flex: 1;
+      }
+      .food-item-1 {
+        /* flex: auto;  Box size */
+        /* flex-grow: 1; */
+        /* padding: 9em 8em 30em 20em; */
+        color: #fff;
+        position: absolute;
+        width: 100%;
+        padding-top: 140px;
+        text-align: center;
+      }
+
+      @media (max-width: 900px) {
+        .food-item-1 {
+          padding-top: 45px;
+          position: absolute;
+          color: #fff;
+          width: 100%;
+          text-align: center;
+        }
+      }
+     
+      #requestQuoteButton {
+        position: absolute;
+        /*margin: 17em 15em 3em 36em;*/
+       /*margin: 16em 15em 40em 39em;*/
+        left: 44%;
+        top: 65%;
+      }
+      @media (max-width: 600px) {
+        #requestQuoteButton {
+        left: 34%;
+        top: 60%;
+        }
+      }
+     
+    
+  /* Food-items section Ends */
+
+  /* Contact footer section Start */
+  #contact-footer {
+    color: white;
+  }
+  .flexbox-container3 {
+    display: flex;
+    justify-content: center;
+    /* background-color: orchid; */
+  }
+
+  .contact {
+    height: 100px;
+    width: 300px;
+    margin: 5px 125px 5px 125px;
+    /* margin: 10px; to add space between the items 1 an 2 */
+    /* border: 1px solid #333; */
+  }
+  @media (max-width: 900px) {
+    .contact {
+      margin: 15px;
+
+    }
+  }
+  .main-contact-1 {
+    /* flex: 3 100%;Box size */
+    /* padding: 1em 5em 10em 2em; */
+    min-height: 150px;
+  }
+  
+  .main-contact-2 {
+    /* flex: 3 100%; Box size */
+   /* padding: 1em 3em 10em 16em;*/
+    min-height: 150px;
+    padding-left: 25px;
+  }
+  @media (max-width: 900px) {
+    .main-contact-2 {
+      padding-left: 35px;
+    }
+  }
+
+    /* margin: 10px; to add space between the items 1 an 2 */
+    /* border: 1px solid #333; */
+    /* margin-top: 2em; */
+
+
+ /* Social Media Container start */
+  .footer-container {
+    display: flex;
+    height: auto;
+  }
+  .footerTextIcon {
+    flex: 1 100%;
+    text-align: center;
+    margin-top: 75px;
+    padding: 10px;
+    background-color: #ffb03b;
+  }
+  @media (max-width: 900px) {
+    .footerTextIcon {
+      /* color: greenyellow; */
+      margin-top: 1px;
+      color: #fff;
+    }
+    #food-items {
+      height: 300px; 
+        }
+    hr {
+      width: 20%;
+    }
+  }
+  .social-media-icons-white a {
+    /*color: white;*/
+    font-size: 1.5rem;
+    justify-content: space-evenly;
+    padding: 30px;
+    gap: 30px;
+  }
+  i:hover {
+    color: orange;
+  }
+
+  .singleCol {
+    width: 100%;
+    /* max-width: 750px; */
+    /* margin: 0 auto; */
+    text-align: center;
+  }
+
+  .textAlignCenter {
+    flex: 1 100%;
+    text-align: center;
+  }
+
+ .copyRight {
+  text-align: center;
+  margin-top: 75px;
+  color: #fff;
+  opacity: .5;
+ }
+  /* Contact footer section end */
+  /* Home Page End */
+
+
+ 
