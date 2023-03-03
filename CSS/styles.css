@@ -209,6 +209,12 @@ hr {
     #getStartedButton {
       margin-top: 20px;
     }
+@media (max-width: 800px) {
+	#getStartedButton {
+	margin-top: 10px;
+	}
+}
+
 
 /* Headline section End */
 
