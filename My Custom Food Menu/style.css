@@ -117,28 +117,31 @@ html, body {
       top: 0;
       left: 0;
   }
-    /* Carousel large img */
+    /* Carousel Large IMGs for Carousel */
+
     .testimonial-imgTop {
       min-width: 100%;
       height: 35em;
-
     }
+     @media (max-width: 900px) {
+      .testimonial-imgTop {
+        min-width: 100%;
+        height: 100%;
+        
+      }
+    }  
+
+    /* Carousel main and only container */
+
     .carousel-item {
+      height: 17em;
       padding: 15% 20% 15% 20%;
       /* Space around large img */
     }
-    /*
-    @media (max-width: 764px) {
-      .testimonial-imgTop {
-        height: 15rem;
-        width: 23rem;
-        padding: 2rem 2.5rem .5rem 1rem;
-      }
-    }
-    */
-  
+    
 
     /* Move large image down and add padding on top */
+
     .testim {
       padding-top: 50px;
     }
