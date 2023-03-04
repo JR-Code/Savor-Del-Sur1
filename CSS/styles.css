@@ -211,8 +211,7 @@ hr {
     }
 @media (max-width: 800px) {
 	#getStartedButton {
-	margin-top: 5px;
-	color: red;
+	margin-top: 3px;
 	}
 }
 
