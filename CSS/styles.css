@@ -102,6 +102,12 @@ hr {
     left: 46%; 
     top: 50%;
   }
+@media (max-width: 400px) {
+	#menuButton {
+	left: 42%;
+	top: 50%;
+	}
+}
  
   /* ProfilePic Section End */
   
