@@ -209,17 +209,17 @@ hr {
     }
     @media (max-width: 800px) {
       .flexItem1-open-img {
-        height: 30%;
-        width: 60%;
+        height: 25%;
+        width: 67%;
       }
     }
 
     #getStartedButton {
       margin-top: 20px;
     }
-@media (max-width: 800px) {
+    @media (max-width: 800px) {
 	#getStartedButton {
-	margin-top: 7px;
+	margin-top: 15px;
 	}
 }
 
@@ -343,7 +343,7 @@ hr {
   }
   @media (max-width: 900px) {
     .contact {
-      margin: 15px;
+      margin: 10px;
 
     }
   }
