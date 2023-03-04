@@ -305,6 +305,7 @@ html, body {
 
 
 /* SubMenu Section Start */
+
 #subMenu {
   width: 100%;
   height: auto;
@@ -312,8 +313,8 @@ html, body {
 }
 .subMenuTitle {
   color: #fff;
-  padding: 5px;
   margin: 10px 10px;
+  padding: 5px;
   text-align: center;
   background-color: #ffb03b;
   height: 1.5em;
@@ -335,10 +336,7 @@ html, body {
   }
   #requestQuoteButton {
     margin-top: 3rem;
-    color: black;
-    font-family: 'Tinos', serif;
-    font-size:  15px;
-
+    color: #000;
   }
   .subMenu1 {
     margin: 10px 10px;
