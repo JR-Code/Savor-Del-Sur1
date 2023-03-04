@@ -351,7 +351,7 @@ hr {
     /* flex: 3 100%;Box size */
     /* padding: 1em 5em 10em 2em; */
     min-height: 150px;
-    line-height: 7px;
+    line-height: 12px;
     
   }
   
@@ -359,11 +359,11 @@ hr {
     /* flex: 3 100%; Box size */
    /* padding: 1em 3em 10em 16em;*/
     min-height: 150px;
-    padding-left: 25px;
+    padding-left: 100px;
   }
   @media (max-width: 900px) {
     .main-contact-2 {
-      padding-left: 35px;
+      padding-left: 95px;
     }
   }
 
