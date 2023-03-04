@@ -127,7 +127,6 @@ html, body {
       .testimonial-imgTop {
         min-width: 100%;
         height: 100%;
-        
       }
     }  
 
@@ -313,6 +312,7 @@ html, body {
 }
 .subMenuTitle {
   color: #fff;
+  padding: 5px;
   margin: 10px 10px;
   text-align: center;
   background-color: #ffb03b;
@@ -492,7 +492,7 @@ table {
   }
   @media (max-width: 900px) {
     .main-contact-2 {
-      padding-left: 45px;
+      padding-left: 35px;
     }
   }
 
