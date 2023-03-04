@@ -205,14 +205,18 @@ html, body {
   }
 }
 .press-logo-center {
+/*	
     width: 25%;
+    height: 155px;
+*/
+    width: 155px;
     height: 155px;
     border-radius: 100%;
     margin: 10px 45px 10px;
 }
 @media (max-width: 900px) {
   .press-logo-center {
-    width: 33%;
+    width: 75px;
     height: 75px;
     border-radius: 100%;
     margin: 10px 25px 10px;
