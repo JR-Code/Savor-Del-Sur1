@@ -104,7 +104,7 @@ hr {
   }
 @media (max-width: 800px) {
 	#menuButton {
-	left: 35%;
+	left: 40%;
 	top: 50%;
 	color: red;
 	}
