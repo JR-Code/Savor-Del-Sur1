@@ -335,7 +335,7 @@ hr {
   }
 
   .contact {
-    height: 100px;
+    height: auto;
     width: 300px;
     margin: 5px 125px 5px 125px;
     /* margin: 10px; to add space between the items 1 an 2 */
@@ -351,6 +351,8 @@ hr {
     /* flex: 3 100%;Box size */
     /* padding: 1em 5em 10em 2em; */
     min-height: 150px;
+    line-height: 12px;
+    
   }
   
   .main-contact-2 {
