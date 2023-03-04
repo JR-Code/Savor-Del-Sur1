@@ -312,10 +312,10 @@ hr {
         left: 44%;
         top: 65%;
       }
-      @media (max-width: 600px) {
+      @media (max-width: 800px) {
         #requestQuoteButton {
-        left: 34%;
-        top: 60%;
+        left: 35%;
+        top: 65%;
         }
       }
      
