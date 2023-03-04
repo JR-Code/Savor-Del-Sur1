@@ -316,7 +316,7 @@ hr {
       }
       @media (max-width: 900px) {
         #requestQuoteButton {
-        left: 32.5%;
+        left: 31.5%;
         top: 67%;
         }
       }
@@ -352,6 +352,8 @@ hr {
     /* padding: 1em 5em 10em 2em; */
     min-height: 150px;
     line-height: 12px;
+    background-color: pink;
+
     
   }
   
