@@ -314,9 +314,9 @@ hr {
         left: 44%;
         top: 65%;
       }
-      @media (max-width: 800px) {
+      @media (max-width: 900px) {
         #requestQuoteButton {
-        left: 33%;
+        left: 32.5%;
         top: 67%;
         }
       }
