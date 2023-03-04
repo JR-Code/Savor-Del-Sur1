@@ -105,8 +105,8 @@ hr {
   }
 @media (max-width: 800px) {
 	#menuButton {
-	left: 39%;
-	top: 47%;
+	left: 37%;
+	top: 45%;
 	padding: 15px 35px 15px 35px;
 	}
 }
@@ -316,8 +316,8 @@ hr {
       }
       @media (max-width: 800px) {
         #requestQuoteButton {
-        left: 35%;
-        top: 65%;
+        left: 30%;
+        top: 67%;
         }
       }
      
