@@ -336,10 +336,11 @@ hr {
 
   .contact {
     height: auto;
-    width: 300px;
     margin: 5px 125px 5px 125px;
     /* margin: 10px; to add space between the items 1 an 2 */
     /* border: 1px solid #333; */
+    background-color: pink;
+    padding: 5px 80px 5px 80px;
   }
   @media (max-width: 900px) {
     .contact {
@@ -353,13 +354,15 @@ hr {
     min-height: 150px;
     line-height: 12px;
     width: 100%;
+    padding-left: 150px;
   }
   
   .main-contact-2 {
     /* flex: 3 100%; Box size */
    /* padding: 1em 3em 10em 16em;*/
     min-height: 150px;
-    padding-left: 100px;
+    padding-left: 150px;
+    width: 100%;
   }
   @media (max-width: 900px) {
     .main-contact-2 {
