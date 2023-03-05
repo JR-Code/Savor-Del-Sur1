@@ -336,14 +336,15 @@ hr {
 
   .contact {
     height: auto;
-    margin: 5px 125px 5px 125px;
+    margin: 5px 125px 10px 125px;
     /* margin: 10px; to add space between the items 1 an 2 */
     /* border: 1px solid #333; */
-    padding: 5px 80px 5px 80px;
+    padding: 5px 20px 5px 20px;
   }
   @media (max-width: 900px) {
     .contact {
-      margin: 10px;
+    
+      margin: 10px 15px 10px 15px;
 
     }
   }
@@ -355,17 +356,27 @@ hr {
     width: 100%;
     padding-left: 150px;
   }
+  @media (max-width: 900px){
+    .main-contact-1 {
+      padding-left: 15px;
+      width: 100%;
+      background-color: pink;
+      margin-right: 0;
+    }
+  }
   
   .main-contact-2 {
     /* flex: 3 100%; Box size */
    /* padding: 1em 3em 10em 16em;*/
     min-height: 150px;
-    padding-left: 150px;
+    padding-left: 200px;
     width: 100%;
   }
   @media (max-width: 900px) {
     .main-contact-2 {
       padding-left: 25px;
+      background-color: pink;
+      width: 65%;
     }
   }
 
