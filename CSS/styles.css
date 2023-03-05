@@ -360,7 +360,6 @@ hr {
     .main-contact-1 {
       padding-left: 15px;
       width: 100%;
-      background-color: pink;
       margin-right: 0;
     }
   }
@@ -375,7 +374,6 @@ hr {
   @media (max-width: 900px) {
     .main-contact-2 {
       padding-left: 25px;
-      background-color: pink;
       width: 65%;
     }
   }
