@@ -354,7 +354,7 @@ hr {
     min-height: 150px;
     line-height: 12px;
     width: 100%;
-    padding-left: 150px;
+    padding-left: 200px;
   }
   @media (max-width: 900px){
     .main-contact-1 {
