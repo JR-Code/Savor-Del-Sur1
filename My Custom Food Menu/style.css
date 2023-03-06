@@ -487,9 +487,13 @@ table {
    min-height: 150px;
    padding-left: 60px; 
   }
+
   @media (max-width: 900px) {
+    .main-contact-1 {
+     padding-left: 20px;
+  }
     .main-contact-2 {
-      padding-left: 115px;
+      padding-left: 50px;
     }
   }
 
