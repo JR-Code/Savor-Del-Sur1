@@ -314,10 +314,9 @@ html, body {
 .subMenuTitle {
   color: #fff;
   margin: 10px 10px;
-  padding: 5px;
+  padding: 10px;
   text-align: center;
   background-color: #ffb03b;
-  height: 1.5em;
 }
 .subMenuTitle1 {
   margin-left: 75px;
