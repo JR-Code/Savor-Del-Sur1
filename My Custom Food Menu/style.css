@@ -522,9 +522,14 @@ table {
 
 
     /* Social Media Container start */
+
   .footer-container {
     display: flex;
     height: auto;
+  }
+ .socialFlexBox {
+    display: flex;
+    flex-direction: row;
   }
   .footerTextIcon {
     flex: 1 100%;
