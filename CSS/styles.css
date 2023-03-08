@@ -56,13 +56,14 @@ hr {
     */
   }
   /* ProfilePic Section Start */
+
   #profilePic {
     height: auto;
-    /* background-color: violet; */
+    background-color: violet; 
   }
   
   .pictureMain {
-    flex: 3;  /*Box size */
+    width: 100%;
     padding-top: 85px;
     /* padding-bottom: 0; */
   }
@@ -81,13 +82,13 @@ hr {
   }
   .menu-item {
     position: relative;
+    text-align: center; /*This code should align everything in the child containers. including button to the center */
   }
  
   .menu-item-1 {
     position: absolute;
     color: #fff;
     width: 100%;
-    text-align: center;
     padding-top: 90px;
    /* padding: 10em 10em 50em 20em; */
   }
@@ -102,14 +103,14 @@ hr {
     background-color: pink;
 }
   #menuButton {
-    /*margin: 16em 15em 40em 43em; */
-    left: 50%; 
+    /* margin: 16em 15em 40em 43em; */
+    /* left: 50%; */
     top: 115%;
    /* padding: 20px 43px 20px 43px; */
   }
 @media (max-width: 900px) {
 	#menuButton {
-	left: 50%;
+	/* left: 50%; */
 	top: 45%;
 	/* padding: 15px 35px 15px 35px; */
 	}
