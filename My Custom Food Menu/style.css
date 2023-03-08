@@ -509,7 +509,7 @@ table {
 
 @media (max-width: 950px) {
     .main-contact-2 {
-	padding-right: 2px;
+	padding-left: 50%;
 	}
 }
 
