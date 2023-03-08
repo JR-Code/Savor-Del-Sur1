@@ -97,11 +97,11 @@ hr {
     }
   }
   .buttonContainer {
+    position: absolute;
     width: 100%;
     background-color: pink;
 }
   #menuButton {
-    position: absolute;
     /*margin: 16em 15em 40em 43em; */
     left: 50%; 
     top: 115%;
@@ -122,20 +122,6 @@ hr {
     display: flex;
     justify-content: center;
     
-    
-    /*
-    height: 700px;
-    
-    flex-direction: column; The Y axis will be the main Axis. 
-    
-    justify-content: space-around; (flex-start; center; space-between; space-around; etc)Align all items horizontally at the start of the main X axis.
-    
-    align-items: center; (flex-start; stretch; center;) Aligns all items vertically across the Y axis.
-    
-    flex-wrap: wrap; Items will show int their assigned size and Stockup the items on smaller screen.
-  
-    align-content: flex-start; (flex-end; space-between; Align items top and bottom of the main container)
-    */
   }
   /*
   flex: 1 0 1px; 
@@ -170,7 +156,7 @@ hr {
   }
   
   .flexbox-item-2 {
-    min-height: 300px;
+    min-height: 400px;
   }
   
   /* This overwrite the aligned content of the main container in the specify item:
@@ -219,7 +205,7 @@ hr {
     }
 
     #getStartedButton {
-      margin-top: 20px;
+      padding-top 10px;
     }
     @media (max-width: 900px) {
 	#getStartedButton {
