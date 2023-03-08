@@ -293,18 +293,19 @@ hr {
         color: #fff;
         position: absolute;
         width: 100%;
-        padding-top: 135px;
+        padding-top: 135x;
         text-align: center;
-	line-height: 12px;
+	
       }
 
       @media (max-width: 900px) {
         .food-item-1 {
-          padding-top: 45px;
+          padding-top: 35px;
           position: absolute;
           color: #fff;
           width: 100%;
           text-align: center;
+	  line-height: 12px;
         }
       }
      
