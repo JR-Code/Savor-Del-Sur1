@@ -468,7 +468,7 @@ table {
   .contact {
     height: 100%;
     width: 100%;
-    margin: 5px 5px 5px 5px;
+    margin: 5px;
     /* margin: 10px; to add space between the items 1 an 2 */
     border: 1px solid #333;
     padding-left: 10em; /* Important.. this control distance of text from the left for both child contact container */
@@ -506,13 +506,11 @@ table {
     .main-contact-1 {
       padding-left: 2px;
     }
-    .main-contact-2 {
-      padding-left: 115px;
-    }
   }
+
 @media (max-width: 350px) {
     .main-contact-2 {
-	padding-left: 7px;
+	padding-left: 2px;
 	}
 }
 
