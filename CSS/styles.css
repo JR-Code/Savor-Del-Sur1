@@ -99,13 +99,13 @@ hr {
   #menuButton {
     position: absolute;
     /*margin: 16em 15em 40em 43em; */
-    left: 46%; 
-    top: 47%;
+    left: 50%; 
+    top: 115%;
     padding: 20px 43px 20px 43px;
   }
 @media (max-width: 800px) {
 	#menuButton {
-	left: 37%;
+	left: 50%;
 	top: 45%;
 	padding: 15px 35px 15px 35px;
 	}
@@ -313,13 +313,13 @@ hr {
         position: absolute;
         /*margin: 17em 15em 3em 36em;*/
        /*margin: 16em 15em 40em 39em;*/
-        left: 44%;
-        top: 65%;
+        left: 50%;
+        top: 85%;
       }
       @media (max-width: 900px) {
         #requestQuoteButton {
-        left: 31.5%;
-        top: 67%;
+        left: 50%;
+        top: 80%;
         }
       }
      
