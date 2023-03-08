@@ -508,7 +508,7 @@ table {
     }
   }
 
-@media (max-width: 350px) {
+@media (max-width: 950px) {
     .main-contact-2 {
 	padding-left: 2px;
 	}
