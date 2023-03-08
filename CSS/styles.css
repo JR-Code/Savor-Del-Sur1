@@ -101,7 +101,7 @@ hr {
     /*margin: 16em 15em 40em 43em; */
     left: 50%; 
     top: 115%;
-    padding: 20px 43px 20px 43px;
+   /* padding: 20px 43px 20px 43px; */
   }
 @media (max-width: 800px) {
 	#menuButton {
@@ -313,13 +313,11 @@ hr {
         position: absolute;
         /*margin: 17em 15em 3em 36em;*/
        /*margin: 16em 15em 40em 39em;*/
-        left: 50%;
-        top: 85%;
+        top: 150%;
       }
       @media (max-width: 900px) {
         #requestQuoteButton {
-        left: 50%;
-        top: 80%;
+        top: 95%;
         }
       }
      
@@ -367,6 +365,11 @@ hr {
     min-height: 150px;
     width: 50%;
   }
+ @media (max-width: 950px) {
+    .main-contact-1 {
+      padding-left: 2px;
+    }
+  }
   
   .main-contact-2 {
     /* flex: 3 100%; Box size */
@@ -376,15 +379,11 @@ hr {
    padding-left: 355px;
   }
 
-  @media (max-width: 950px) {
-    .main-contact-1 {
-      padding-left: 2px;
-    }
-  }
+ 
 
 @media (max-width: 950px) {
     .main-contact-2 {
-	padding-right: 50px;
+     padding-left: 50px;
 	}
 }
   
