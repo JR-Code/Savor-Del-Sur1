@@ -96,6 +96,9 @@ hr {
       padding-top: 45px;
     }
   }
+  .buttonContainer {
+    width: 100%;
+}
   #menuButton {
     position: absolute;
     /*margin: 16em 15em 40em 43em; */
