@@ -103,11 +103,11 @@ hr {
     top: 115%;
    /* padding: 20px 43px 20px 43px; */
   }
-@media (max-width: 800px) {
+@media (max-width: 900px) {
 	#menuButton {
 	left: 50%;
 	top: 45%;
-	padding: 15px 35px 15px 35px;
+	/* padding: 15px 35px 15px 35px; */
 	}
 }
  
