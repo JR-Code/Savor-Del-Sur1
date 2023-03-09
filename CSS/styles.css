@@ -205,13 +205,13 @@ hr {
     }
 
     .contactUsButtonContainer {
-      margin-top 85px;
+      margin-top 95px;
       background-color: pink;
     }
 
     @media (max-width: 900px) {
 	.contactUsButtonContainer {
-	margin-top: 17px;
+	margin-top: 15px;
 	}
 }
 
@@ -283,12 +283,11 @@ hr {
           color: #fff;
           width: 100%;
           padding-top: 90px;
-	
       }
 
       @media (max-width: 900px) {
         .food-item-1 {
-           padding-top: 45px;
+           padding-top: 30px;
         }
       }
 
@@ -301,7 +300,7 @@ hr {
       }
       @media (max-width: 900px) {
 	  .ReqQuoteButtonContainer {
-            margin-top: 140px;
+            margin-top: 130px;
 	}
 }
 	
