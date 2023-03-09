@@ -106,7 +106,7 @@ hr {
 
 @media (max-width: 900px) {
     .buttonContainer {
-    margin-top: 65px;
+    margin-top: 85px;
    }
 }
 
@@ -294,12 +294,12 @@ hr {
 	  position: absolute;
           width: 100%;
          /*  background-color: pink; */
-          margin-top: 210px; /* Move request quote container up and down along with its child button */
+          margin-top: 245px; /* Move request quote container up and down along with its child button */
 	  height: auto;
       }
       @media (max-width: 900px) {
 	  .ReqQuoteButtonContainer {
-            margin-top: 100px;
+            margin-top: 175px;
 	}
 }
 	
