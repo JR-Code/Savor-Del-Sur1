@@ -282,7 +282,7 @@ hr {
           position: absolute;
           color: #fff;
           width: 100%;
-          padding-top: 100px;
+          padding-top: 90px;
 	
       }
 
@@ -301,7 +301,7 @@ hr {
       }
       @media (max-width: 900px) {
 	  .ReqQuoteButtonContainer {
-            margin-top: 160px;
+            margin-top: 140px;
 	}
 }
 	
