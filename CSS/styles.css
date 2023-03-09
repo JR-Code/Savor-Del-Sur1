@@ -103,6 +103,11 @@ hr {
     background-color: pink;
     margin-top: 180px; /* Move menu button container up and down along with its child button */
 }
+@media (max-width: 900px) {
+    .buttonContainer {
+    margin-top: 45px;
+   }
+}
 
    #menuButton {
     padding: 15px 25px;
@@ -291,6 +296,11 @@ hr {
           margin-top: 210px; /* Move request quote container up and down along with its child button */
 	  height: auto;
       }
+      @media (max-width: 900px) {
+	  .ReqQuoteButtonContainer {
+            margin-top: 75px;
+	}
+}
 	
 	#requestQuoteButton {
 	  padding: 15px
