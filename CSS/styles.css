@@ -102,8 +102,11 @@ hr {
     width: 100%;
     background-color: pink;
     margin-top: 180px;
-  
 }
+
+   #menuButton {
+    padding: 5px;
+   }
 
  
   /* ProfilePic Section End */
@@ -285,8 +288,13 @@ hr {
 	  position: absolute;
           width: 100%;
           background-color: pink;
-          margin-top: 195px;   
+          margin-top: 195px;
+	  height: auto;
       }
+	
+	#requestQuoteButton {
+	  padding: 5px
+	}
      
      
   /* Food-items section Ends */
