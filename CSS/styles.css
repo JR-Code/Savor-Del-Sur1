@@ -101,11 +101,11 @@ hr {
     position: absolute;
     width: 100%;
     background-color: pink;
-    margin-top: 180px;
+    margin-top: 180px; /* Move menu button container up and down along with its child button */
 }
 
    #menuButton {
-    padding: 5px;
+    padding: 15px;
    }
 
  
@@ -288,12 +288,12 @@ hr {
 	  position: absolute;
           width: 100%;
           background-color: pink;
-          margin-top: 195px;
+          margin-top: 210px; /* Move request quote container up and down along with its child button */
 	  height: auto;
       }
 	
 	#requestQuoteButton {
-	  padding: 5px
+	  padding: 15px
 	}
      
      
