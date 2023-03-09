@@ -263,7 +263,7 @@ hr {
 
       .flexbox-container2 {
         width: 100%;
-        padding-top: 50px;
+        padding-top: 30px;
       }
       .topTextImg {
         height: 370px;
@@ -301,7 +301,7 @@ hr {
       }
       @media (max-width: 900px) {
 	  .ReqQuoteButtonContainer {
-            margin-top: 175px;
+            margin-top: 160px;
 	}
 }
 	
