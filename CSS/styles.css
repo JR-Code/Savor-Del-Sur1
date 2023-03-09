@@ -102,19 +102,7 @@ hr {
     width: 100%;
     background-color: pink;
 }
-  #menuButton {
-    /* margin: 16em 15em 40em 43em; */
-    /* left: 50%; */
-    top: 115%;
-   /* padding: 20px 43px 20px 43px; */
-  }
-@media (max-width: 900px) {
-	#menuButton {
-	/* left: 50%; */
-	top: 45%;
-	/* padding: 15px 35px 15px 35px; */
-	}
-}
+
  
   /* ProfilePic Section End */
   
