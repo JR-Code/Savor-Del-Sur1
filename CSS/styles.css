@@ -206,7 +206,7 @@ hr {
 
     .contactUsButtonContainer {
       margin-top 95px;
-      background-color: pink;
+      /* background-color: pink;*/
     }
 
     @media (max-width: 900px) {
@@ -249,13 +249,15 @@ hr {
 	top:1px;
 }
   /* Button generator code Ends */
+
   /* Headline section Ends */
+
 
   /* Food-items section Starts */
 
     #food-items {
         height: auto;
-        margin-top: 3em;
+        margin-top: 3px;
 
         /* margin: 10px; to add space between the items 1 an 2 */
         /* border: 1px solid #333; */
