@@ -255,10 +255,10 @@ hr {
 
     #food-items {
         height: auto;
-        
+        margin-top: 10em;
+
         /* margin: 10px; to add space between the items 1 an 2 */
         /* border: 1px solid #333; */
-        /*margin-top: 2em; */
       }
 
       .flexbox-container2 {
