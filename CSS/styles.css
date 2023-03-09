@@ -101,7 +101,7 @@ hr {
     position: absolute;
     width: 100%;
     background-color: pink;
-    margin-bottom: 75px;
+    padding-bottom: 75px;
   
 }
 
@@ -196,7 +196,7 @@ hr {
     }
 
     #contactUsBottom {
-      padding-top 10px;
+      padding-top 17px;
     }
     @media (max-width: 900px) {
 	#contactUsButton {
