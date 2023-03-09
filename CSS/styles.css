@@ -100,7 +100,7 @@ hr {
   .buttonContainer {
     position: absolute;
     width: 100%;
-    background-color: pink;
+    /* background-color: pink; */
     margin-top: 180px; /* Move menu button container up and down along with its child button */
 }
 
@@ -293,7 +293,7 @@ hr {
       .ReqQuoteButtonContainer {
 	  position: absolute;
           width: 100%;
-          background-color: pink;
+         /*  background-color: pink; */
           margin-top: 210px; /* Move request quote container up and down along with its child button */
 	  height: auto;
       }
