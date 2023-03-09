@@ -311,7 +311,7 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: orchid; 
+    /* background-color: orchid; */
     margin-top: 25px;
      
   }
