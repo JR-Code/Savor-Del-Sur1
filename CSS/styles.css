@@ -264,9 +264,14 @@ hr {
 
       .flexbox-container2 {
         width: 100%;
-        margin-top: 10px;
+        margin-top: 15px;
 	border: 10px solid green;
       }
+@media (max-width: 900px) {
+	.flexbox-container2 {
+	margin-top: 7px;
+	}
+}
       .topTextImg {
         height: 370px;
         width: 100%;
