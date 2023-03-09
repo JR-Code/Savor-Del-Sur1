@@ -195,11 +195,11 @@ hr {
       }
     }
 
-    #getStartedButton {
+    #contactUsBottom {
       padding-top 10px;
     }
     @media (max-width: 900px) {
-	#getStartedButton {
+	#contactUsButton {
 	margin-top: 15px;
 	}
 }
