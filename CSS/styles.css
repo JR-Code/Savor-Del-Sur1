@@ -196,7 +196,7 @@ hr {
     }
 
     #contactUsBottom {
-      padding-top 17px;
+      padding-top 50px;
     }
     @media (max-width: 900px) {
 	#contactUsButton {
