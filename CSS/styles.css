@@ -199,11 +199,11 @@ hr {
     }
 
     #contactUsBottom {
-      padding-top 50px;
+      margin-top 50px;
     }
     @media (max-width: 900px) {
 	#contactUsButton {
-	margin-top: 15px;
+	margin-top: 7px;
 	}
 }
 
