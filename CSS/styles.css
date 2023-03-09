@@ -251,56 +251,43 @@ hr {
       }
 
       .flexbox-container2 {
-        display: flex;
-        position: relative;
+        width: 100%;
+        padding-top: 85px;
       }
       .topTextImg {
-        height: 400px;
+        height: 370px;
         width: 100%;
       }
       @media (max-width: 900px) {
         .topTextImg {
           height: 235px;
-          padding-top: 0px;
         }
       }
       .food-item {
-        flex: 1;
+          position: relative;
+          text-align: center; /*This code should align everything in the child containers. including button to the center */
       }
       .food-item-1 {
-        /* flex: auto;  Box size */
-        /* flex-grow: 1; */
-        /* padding: 9em 8em 30em 20em; */
-        color: #fff;
-        position: absolute;
-        width: 100%;
-        padding-top: 100px;
-        text-align: center;
+          position: absolute;
+          color: #fff;
+          width: 100%;
+          padding-top: 90px;
 	
       }
 
       @media (max-width: 900px) {
         .food-item-1 {
-          padding-top: 35px;
-          position: absolute;
-          color: #fff;
-          width: 100%;
-          text-align: center;
-	  line-height: 12px;
+           padding-top: 45px;
         }
+      }
+
+      .ReqQuoteButtonContainer {
+	  position: absolute;
+          width: 100%;
+          background-color: pink;
+          margin-top: 180px;   
       }
      
-      #requestQuoteButton {
-        position: absolute;
-        /*margin: 17em 15em 3em 36em;*/
-       /*margin: 16em 15em 40em 39em;*/
-        top: 150%;
-      }
-      @media (max-width: 900px) {
-        #requestQuoteButton {
-        top: 95%;
-        }
-      }
      
   /* Food-items section Ends */
 
