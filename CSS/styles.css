@@ -98,10 +98,10 @@ hr {
     }
   }
   .buttonContainer {
-    position: relative;
+    position: absolute;
     width: 100%;
     background-color: pink;
-    margin-bottom: 75px;
+    margin-top: 75px;
   
 }
 
