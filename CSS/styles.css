@@ -133,8 +133,8 @@ hr {
   .flexbox-item {
     width: 300px;
     margin: 45px;
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     text-align: center;
     color: #fff;
     border: 5px solid white;
@@ -146,7 +146,7 @@ hr {
   @media screen and (max-width: 900px) {
     .flexbox-item {
 	margin: 10px; 
-	margin-top: 40px;
+	margin-top: 0px;
 	height: 50px;
       /*max-block-size: 5px;*/
 
@@ -210,13 +210,13 @@ hr {
     }
 
     .contactUsButtonContainer {
-      margin-top: 65px;
+      margin-top: 70px;
       background-color: pink;
     }
 
     @media (max-width: 900px) {
 	.contactUsButtonContainer {
-	margin-top: 17px;
+	margin-top: 20px;
 	}
 }
 
