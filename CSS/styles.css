@@ -134,7 +134,7 @@ hr {
     width: 300px;
     margin: 45px;
     margin-top: 50px;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
     text-align: center;
     color: #fff;
     border: 5px solid white;
@@ -210,7 +210,7 @@ hr {
     }
 
     .contactUsButtonContainer {
-      margin-top: 25px;
+      margin-top: 45px;
       background-color: pink;
     }
 
@@ -218,6 +218,10 @@ hr {
 	.contactUsButtonContainer {
 	margin-bottom: 0;
 	}
+}
+
+     #contactUsBottom {
+	 margin: 0;
 }
 
 
