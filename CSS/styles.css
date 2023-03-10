@@ -132,7 +132,7 @@ hr {
   
   .flexbox-item {
     width: 300px;
-    margin: 45px;
+    margin: 65px;
     margin-top: 75px;
     margin-bottom: 50px;
     text-align: center;
@@ -217,7 +217,7 @@ hr {
 
     @media (max-width: 900px) {
 	.contactUsButtonContainer {
-	margin-top: 30px;
+	margin-top: 33px;
 	}
 }
 
