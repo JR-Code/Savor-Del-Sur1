@@ -210,13 +210,13 @@ hr {
     }
 
     .contactUsButtonContainer {
-      margin-top: 70px;
+      margin-top: 80px;
       background-color: pink;
     }
 
     @media (max-width: 900px) {
 	.contactUsButtonContainer {
-	margin-top: 20px;
+	margin-top: 25px;
 	}
 }
 
