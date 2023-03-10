@@ -149,7 +149,7 @@ hr {
 	margin-top: 40px;
 	height: 50px;
       /*max-block-size: 5px;*/
-	flex-shrink: 1;
+	flex-shrink: 0;
     }
   }
 
@@ -204,13 +204,13 @@ hr {
     @media (max-width: 900px) {
       .flexItem1-open-img {
 	margin-top: 5px;
-        height: 27%;
+        height: 26%;
         width: 100%;
       }
     }
 
     .contactUsButtonContainer {
-      margin-bottom: 0;
+      margin-top: 35px;
       background-color: pink;
     }
 
@@ -273,7 +273,7 @@ hr {
       }
 @media (max-width: 900px) {
 	.flexbox-container2 {
-	margin-top: 7px;
+	margin-top: 1px;
 	}
 }
       .topTextImg {
