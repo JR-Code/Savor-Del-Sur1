@@ -199,14 +199,14 @@ hr {
       }
     }
     .flexItem1-open-img {
-     padding-top: 10px;
+     padding-top: 8px;
      height: 35%;
-     width: 80%;
+     width: 100%;
     }
     @media (max-width: 800px) {
       .flexItem1-open-img {
         height: 25%;
-        width: 67%;
+        width: 100%;
       }
     }
 
