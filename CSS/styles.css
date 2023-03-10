@@ -147,7 +147,7 @@ hr {
     .flexbox-item {
 	margin: 10px; 
 	margin-top: 40px;
-	height: 250px;
+	height: 150px;
       /*max-block-size: 5px;*/
     }
   }
@@ -177,7 +177,7 @@ hr {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      /* margin-bottom: 35px; */
+      margin-bottom: 35px;
     
       /*
       max-width: 100%; 
@@ -192,7 +192,7 @@ hr {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        /* margin-bottom: 35px; */
+        margin-bottom: 35px;
       }
     }
     .flexItem1-open-img {
@@ -208,13 +208,13 @@ hr {
     }
 
     .contactUsButtonContainer {
-      padding-bottom: 0;
+      margin-bottom: 0;
       background-color: pink;
     }
 
     @media (max-width: 900px) {
 	.contactUsButtonContainer {
-	padding-bottom: 0;
+	margin-bottom: 0;
 	}
 }
 
