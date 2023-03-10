@@ -160,6 +160,7 @@ hr {
   .flexbox-item-2 {
     min-height: 400px;
   }
+
   
   /* This overwrite the aligned content of the main container in the specify item:
   align-self: center; (flex-end; flex-start; etc) */
@@ -176,7 +177,7 @@ hr {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      margin-bottom: 35px;
+      /* margin-bottom: 35px; */
     
       /*
       max-width: 100%; 
@@ -191,7 +192,7 @@ hr {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 35px;
+        /* margin-bottom: 35px; */
       }
     }
     .flexItem1-open-img {
