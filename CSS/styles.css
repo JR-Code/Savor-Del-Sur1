@@ -138,6 +138,7 @@ hr {
     text-align: center;
     color: #fff;
     border: 5px solid red;
+
     /*
     margin-top: 2em;
     margin-bottom: 2em;
@@ -145,8 +146,9 @@ hr {
     height: 450px;
     */
   }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 900px) {
     .flexbox-item {
+	margin: 20px;    
       /* margin: 35px 5px 0px 5px; */
       max-block-size: 25em;
       /*max-block-size: 5px;*/
