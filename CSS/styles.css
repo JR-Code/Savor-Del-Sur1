@@ -216,7 +216,7 @@ hr {
 
     @media (max-width: 900px) {
 	.contactUsButtonContainer {
-	margin-bottom: 3px;
+	margin-top: 17px;
 	}
 }
 
@@ -277,7 +277,7 @@ hr {
       }
 @media (max-width: 900px) {
 	.flexbox-container2 {
-	margin-top: 10px;
+	margin-top: 25px;
 	}
 }
       .topTextImg {
@@ -335,13 +335,15 @@ hr {
     margin-top: 65px;
     padding: 10px;
     background-color: #ffb03b;
+    color: #fff;
   }
   @media (max-width: 900px) {
     .footerTextIcon {
       /* color: greenyellow; */
       margin-top: 1px;
-      color: #fff;
+      
     }
+}
 
    
 #contact-footer {
