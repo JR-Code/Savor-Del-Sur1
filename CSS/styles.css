@@ -148,7 +148,8 @@ hr {
   }
   @media screen and (max-width: 900px) {
     .flexbox-item {
-	margin: 20px;    
+	margin: 30px; 
+	margin-bottom: 15px;
       /* margin: 35px 5px 0px 5px; */
       max-block-size: 25em;
       /*max-block-size: 5px;*/
