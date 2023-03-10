@@ -138,12 +138,8 @@ hr {
     text-align: center;
     color: #fff;
     border: 5px solid red;
-    height: auto;
 
     /*
-    margin-top: 2em;
-    margin-bottom: 2em;
-    text-align: center;
     height: 450px;
     */
   }
@@ -151,6 +147,7 @@ hr {
     .flexbox-item {
 	margin: 10px; 
 	margin-top: 40px;
+	height: 250px;
       /*max-block-size: 5px;*/
     }
   }
@@ -186,7 +183,7 @@ hr {
       max-height: 100%;
       */
     }
-    @media (max-width: 800px) {
+    @media (max-width: 900px) {
       .flexItem1-img {
         height: 100px;
         width: 100px;
@@ -198,7 +195,7 @@ hr {
       }
     }
     .flexItem1-open-img {
-     padding-bottom: 0;
+     margin-bottom: 0;
      height: 35%;
      width: 100%;
     }
@@ -210,13 +207,13 @@ hr {
     }
 
     .contactUsButtonContainer {
-      margin-bottom: 0;
+      padding-bottom: 0;
       background-color: pink;
     }
 
     @media (max-width: 900px) {
 	.contactUsButtonContainer {
-	margin-bottom: 0;
+	padding-bottom: 0;
 	}
 }
 
