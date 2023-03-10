@@ -116,8 +116,10 @@ hr {
 
  
   /* ProfilePic Section End */
+
   
-  /* Headline section Starts */
+  /* Second Container Section Starts */
+
   .flexbox-container1 {
     display: flex;
     justify-content: center;
@@ -135,6 +137,7 @@ hr {
     margin-bottom: 25px;
     text-align: center;
     color: #fff;
+    border: 5px solid red;
     /*
     margin-top: 2em;
     margin-bottom: 2em;
