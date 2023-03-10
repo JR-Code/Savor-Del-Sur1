@@ -198,7 +198,7 @@ hr {
       }
     }
     .flexItem1-open-img {
-     padding-top: 8px;
+     padding-bottom: 0;
      height: 35%;
      width: 100%;
     }
@@ -210,13 +210,13 @@ hr {
     }
 
     .contactUsButtonContainer {
-      padding-top 20px;
+      padding-bottom: 0px;
       background-color: pink;
     }
 
     @media (max-width: 900px) {
 	.contactUsButtonContainer {
-	margin-top: 20px;
+	padding-bottom: 0;
 	}
 }
 
