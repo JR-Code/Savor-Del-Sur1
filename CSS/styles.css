@@ -332,7 +332,7 @@ hr {
 .footerTextIcon {
     flex: 1 100%;
     text-align: center;
-    margin-top: 65px;
+    margin-top: 75px;
     padding: 10px;
     background-color: #ffb03b;
     color: #fff;
@@ -340,7 +340,7 @@ hr {
   @media (max-width: 900px) {
     .footerTextIcon {
       /* color: greenyellow; */
-      margin-top: 1px;
+      margin-top: 15px;
       
     }
 }
@@ -380,8 +380,6 @@ hr {
   }
 
   .main-contact-1 {
-  /*flex: 3 100%;Box size */
-    /* padding: 1em 5em 10em 2em; */
     min-height: 150px;
     width: 50%;
   }
@@ -392,8 +390,6 @@ hr {
   }
   
   .main-contact-2 {
-    /* flex: 3 100%; Box size */
-   /* padding: 1em 3em 10em 16em;*/
    min-height: 150px;
    width: 50%;
    padding-left: 355px;
@@ -414,6 +410,7 @@ hr {
 
 
  /* Social Media Container start */
+
   .footer-container {
     display: flex;
     height: auto;
@@ -422,10 +419,11 @@ hr {
     #food-items {
       height: 300px; 
         }
+
     hr {
       width: 20%;
     }
-  }
+ 
   .social-media-icons-white a {
     /*color: white;*/
     font-size: 1.5rem;
