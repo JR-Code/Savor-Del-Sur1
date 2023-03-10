@@ -149,6 +149,7 @@ hr {
   @media screen and (max-width: 900px) {
     .flexbox-item {
 	margin: 10px; 
+	padding-bottom: 0;
       /* margin: 35px 5px 0px 5px; */
       max-block-size: 25em;
       /*max-block-size: 5px;*/
@@ -210,7 +211,7 @@ hr {
     }
 
     .contactUsButtonContainer {
-      margin-top 145px;
+      padding-top 8px;
       background-color: pink;
     }
 
