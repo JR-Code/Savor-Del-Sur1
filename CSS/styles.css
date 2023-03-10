@@ -277,7 +277,7 @@ hr {
       }
 @media (max-width: 900px) {
 	.flexbox-container2 {
-	margin-top: 1px;
+	margin-top: 10px;
 	}
 }
       .topTextImg {
@@ -326,7 +326,22 @@ hr {
      
   /* Food-items section Ends */
 
+
   /* Contact footer section Start */
+
+.footerTextIcon {
+    flex: 1 100%;
+    text-align: center;
+    margin-top: 65px;
+    padding: 10px;
+    background-color: #ffb03b;
+  }
+  @media (max-width: 900px) {
+    .footerTextIcon {
+      /* color: greenyellow; */
+      margin-top: 1px;
+      color: #fff;
+    }
 
    
 #contact-footer {
@@ -401,19 +416,7 @@ hr {
     display: flex;
     height: auto;
   }
-  .footerTextIcon {
-    flex: 1 100%;
-    text-align: center;
-    margin-top: 75px;
-    padding: 10px;
-    background-color: #ffb03b;
-  }
-  @media (max-width: 900px) {
-    .footerTextIcon {
-      /* color: greenyellow; */
-      margin-top: 1px;
-      color: #fff;
-    }
+  
     #food-items {
       height: 300px; 
         }
