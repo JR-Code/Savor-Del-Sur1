@@ -451,74 +451,142 @@ table {
 
   /* Contact footer section Start */
 
-  
-#contact-footer {
-    padding-top: 3rem;
-    color: white;
-  }
-
-  .flexbox-container3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    /* background-color: orchid; */
-    margin-top: 25px;
-     
-  }
-  .contact {
-    height: 100%;
-    width: 100%;
-    margin: 5px;
-    padding-left: 10em; /* Important.. this control distance of text from the left for both child contact container */
-
-    /* margin: 10px; to add space between the items 1 an 2 */
-    /* border: 1px solid #333; */
-  }
-
-  
-  @media (max-width: 900px) {
-    .contact {
-      margin: 7px;
+  .footerTextIcon {
+  flex: 1 100%;
+  text-align: center;
+  margin-top: 180px;
+  padding: 10px;
+  background-color: #ffb03b;
+  color: #fff;
+}
+@media (max-width: 900px) {
+  .footerTextIcon {
+    /* color: greenyellow; */
+    margin-top: 15px;
     
-    }
   }
-  
-  .contact > p {
-    line-height: 10px;
-  }
+}
 
+#contact-footer {
+  padding-top: 3rem;
+  color: white;
+  
+}
+.flexbox-container3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* background-color: orchid; */
+  margin-top: 25px;
+   
+}
+.contact {
+  height: 100%;
+  width: 100%;
+  margin: 5px;
+  padding-left: 10em; /* Important.. this control distance of text from the left for both child contact container */
+  /* margin: 10px; to add space between the items 1 an 2 */
+  /* border: 1px solid #333; */
+}
+
+@media (max-width: 900px) {
+  .contact {
+    margin: 7px;
+  
+  }
+}
+
+.contact > p {
+  line-height: 10px;
+}
+
+.main-contact-1 {
+  min-height: 150px;
+  width: 50%;
+}
+@media (max-width: 950px) {
   .main-contact-1 {
-  /*flex: 3 100%;Box size */
-    /* padding: 1em 5em 10em 2em; */
-    min-height: 150px;
+    padding-left: 2px;
     width: 50%;
   }
-  
+}
+
+.main-contact-2 {
+ min-height: 150px;
+ width: 50%;
+ padding-left: 410px;
+}
+
+/* SUPPER LARGE SCREEN SIZE - I DON'T HAVE ONE */
+
+@media (max-width: 2012px) {
   .main-contact-2 {
-    /* flex: 3 100%; Box size */
-   /* padding: 1em 3em 10em 16em;*/
-   min-height: 150px;
+   padding-left: 50px;
    width: 50%;
-   padding-left: 355px;
-  }
+   /* background-color: blue; */
+}
+}
 
-  @media (max-width: 950px) {
-    .main-contact-1 {
-      padding-left: 2px;
-    }
-  }
+/* DELL LARGE MONITOR SIZES AFTER ITS HALF SIZE */
 
-  @media (max-width: 950px) {
-    .main-contact-2 {
-	padding-left: 50px;
-	}
-   }
+@media (max-width: 1920px) {
+  .main-contact-2 {
+   padding-left: 370px;
+   width: 50%;
+   /* background-color: skyblue; */
+}
+}
 
+/* MEDIUM AND A HALF SIZES ON MY GAMING LAPTOP */
+
+@media (max-width: 1201px) {
+  .main-contact-2 {
+   padding-left: 250px;
+   width: 50%;
+   /* background-color: blueviolet; */
+}
+}
+
+/* MEDIUM SIZES ON MY GAMING LAPTOP */
+
+@media (max-width: 1025px) {
+  .main-contact-2 {
+   padding-left: 270px;
+   width: 50%;
+   /* background-color: grey; */
+}
+}
+
+/* SMALLEST SIZES ON MY GAMING LAPTOP */
+
+@media (max-width: 769px) {
+  .main-contact-2 {
+   padding-left: 140px;
+   width: 50%;
+   /* background-color: burlywood; */
+}
+}
+
+@media (max-width: 481px) {
+  .main-contact-2 {
+   padding-left: 135px;
+   width: 50%;
+   /* background-color: green; */
+}
+}
+@media (max-width: 320px) {
+  .main-contact-2 {
+   padding-left: 75px;
+   width: 50%;
+   /* background-color: pink; */
+}
+}
     /* margin: 10px; to add space between the items 1 an 2 */
     /* border: 1px solid #333; */
     /* margin-top: 2em; */
 
-    /* Social Media Container start */
+
+/* Social Media Container start */
 
   .footer-container {
     display: flex;
