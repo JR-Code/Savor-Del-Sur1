@@ -333,7 +333,7 @@ hr {
 .footerTextIcon {
     flex: 1 100%;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 180px;
     padding: 10px;
     background-color: #ffb03b;
     color: #fff;
@@ -393,7 +393,7 @@ hr {
   .main-contact-2 {
    min-height: 150px;
    width: 50%;
-   padding-left: 385px;
+   padding-left: 410px;
   }
 
 @media (max-width: 950px) {
