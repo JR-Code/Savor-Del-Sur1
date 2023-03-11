@@ -450,14 +450,14 @@ hr {
   .main-contact-2 {
    padding-left: 135px;
    width: 50%;
-   /* background-color: green; */
+   background-color: green; 
 }
 }
 @media (max-width: 320px) {
   .main-contact-2 {
    padding-left: 75px;
    width: 50%;
-   /* background-color: pink; */
+   background-color: pink; 
 }
 }
 
