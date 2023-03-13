@@ -1,0 +1,255 @@
+
+html, body {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+    /* overflow-x: hidden; */
+    font-family: 'Tinos', serif;
+  }
+  /* This code removes Extra White Space on the side of HTML CSS Website for Mobile or Tab */
+  @media only screen and (max-width: 780px) {
+    html,body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+  }
+  a:link { text-decoration: none; }
+  a:visited { text-decoration: none; }
+  a:hover { text-decoration: none; color: #ffc56e;}
+  a:active { text-decoration: #ffa500; }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Satisfy", sans-serif;
+  }
+  
+  #wrapper {
+    background-color: #000000
+  }
+  h4{
+    color: #fff;
+  }
+  hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 9%;
+  margin: 10px auto;
+  }
+
+ 
+/* MAIN CONTACT FORM SECTION STARTS */
+
+  .container {
+    padding-top: 135px;
+    color: #fff;
+  }
+
+  .contactUsHeader {
+    text-align: center;
+    padding-bottom: 85px;
+  }
+
+
+/* MAIN CONTACT FORM SECTION STARTS */
+
+
+
+
+
+
+
+
+/* ENTIRE CONTACT FOOTER SECTION STARTS */
+
+
+.footerTextIcon {
+    flex: 1 100%;
+    text-align: center;
+    margin-top: 180px;
+    padding: 10px;
+    background-color: #ffb03b;
+    color: #fff;
+  }
+  @media (max-width: 900px) {
+    .footerTextIcon {
+      /* color: greenyellow; */
+      margin-top: 15px;
+      
+    }
+  }
+  
+  #contact-footer {
+    padding-top: 3rem;
+    color: white;
+    
+  }
+  .flexbox-container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: orchid; */
+    margin-top: 25px;
+     
+  }
+  .contact {
+    height: 100%;
+    width: 100%;
+    margin: 5px;
+    padding-left: 10em; /* Important.. this control distance of text from the left for both child contact container */
+    /* margin: 10px; to add space between the items 1 an 2 */
+    /* border: 1px solid #333; */
+  }
+  
+  @media (max-width: 900px) {
+    .contact {
+      margin: 7px;
+    
+    }
+  }
+  
+  .contact > p {
+    line-height: 10px;
+  }
+  
+  .main-contact-1 {
+    min-height: 150px;
+    width: 50%;
+  }
+  @media (max-width: 950px) {
+    .main-contact-1 {
+      padding-left: 2px;
+      width: 50%;
+    }
+  }
+  
+  
+  .main-contact-2 {
+   min-height: 150px;
+   width: 50%;
+   padding-left: 410px;
+  }
+  
+  /* SUPPER LARGE SCREEN SIZE - I DON'T HAVE ONE */
+  
+  @media (max-width: 2012px) {
+    .main-contact-2 {
+     padding-left: 50px;
+     width: 50%;
+     /* background-color: blue; */
+  }
+  }
+  
+  /* DELL LARGE MONITOR SIZES AFTER ITS HALF SIZE */
+  
+  @media (max-width: 1920px) {
+    .main-contact-2 {
+     padding-left: 370px;
+     width: 50%;
+     /* background-color: skyblue; */
+  }
+  }
+  
+/* MEDIUM AND A HALF SIZES ON MY GAMING LAPTOP */
+  
+  @media (max-width: 1201px) {
+    .main-contact-2 {
+     padding-left: 250px;
+     width: 50%;
+     /* background-color: blueviolet; */
+  }
+  }
+  
+  /* MEDIUM SIZES ON MY GAMING LAPTOP */
+  
+  @media (max-width: 1025px) {
+    .main-contact-2 {
+     padding-left: 270px;
+     width: 50%;
+     /* background-color: grey; */
+  }
+  }
+  
+/* SMALLEST SIZES ON MY GAMING LAPTOP */
+  
+  @media (max-width: 769px) {
+    .main-contact-2 {
+     padding-left: 140px;
+     width: 50%;
+     /* background-color: burlywood; */
+  }
+  }
+  
+  @media (max-width: 481px) {
+    .main-contact-2 {
+     padding-left: 75px;
+     width: 50%;
+     /* background-color: green; */
+  }
+  }
+  @media (max-width: 320px) {
+    .main-contact-2 {
+     padding-left: 75px;
+     width: 50%;
+     /* background-color: pink; */
+  }
+  }
+  
+  
+    /* margin: 10px; to add space between the items 1 an 2 */
+    /* border: 1px solid #333; */
+    /* margin-top: 2em; */
+  
+  
+  /* Social Media Container start */
+  
+  .footer-container {
+    display: flex;
+    height: auto;
+  }
+  
+    #food-items {
+      height: 300px; 
+        }
+  
+    hr {
+      width: 20%;
+    }
+  
+  .social-media-icons-white a {
+    /*color: white;*/
+    font-size: 1.5rem;
+    justify-content: space-evenly;
+    padding: 30px;
+    gap: 30px;
+  }
+  i:hover {
+    color: orange;
+  }
+  
+  .singleCol {
+    width: 100%;
+    /* max-width: 750px; */
+    /* margin: 0 auto; */
+    text-align: center;
+  }
+  
+  .textAlignCenter {
+    flex: 1 100%;
+    text-align: center;
+  }
+  
+  .copyRight {
+  text-align: center;
+  margin-top: 75px;
+  color: #fff;
+  opacity: .5;
+  }
+/* ENTIRE CONTACT FOOTER SECTION STARTS */
